@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.background-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://cdn.glitch.global/6f6e3cad-2a53-4459-b286-9fb3b6bb6291/billiancedesktopv2.png?v=1742749641594");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .background-container {
+    background-image: url("https://cdn.glitch.global/6f6e3cad-2a53-4459-b286-9fb3b6bb6291/billiancemobilev2.png?v=1742749606427");
+    background-size: cover; /* Ensure it covers the screen properly */
+    background-position: top; /* Center the mobile image */
+  }
+}
